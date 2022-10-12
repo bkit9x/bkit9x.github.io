@@ -1,0 +1,153 @@
+backTop: "Lên đầu trang"
+
+# hugo encrypt
+encrypt:
+    protectedByPassword: "Nội dung sau được bảo vệ."
+    enterPassword: "Vui lòng nhập mật khẩu."
+    decrypt: "Giải mã"
+    wrongPassword: "Mật khẩu không chính xác"
+    encryptNoscript: "Javascript cần được bật để giải mã nội dung"
+
+# Links
+linksRank: "Không có thứ tự cụ thể"
+
+# Archives
+archives:
+    title: "Lưu trữ"
+    total: 
+        one: 'Tổng cộng {{ . }} bài viết'
+        other: 'Tổng cộng {{ . }} bài viết'
+    helloWorld: "Hello World!"
+    untitled: "Không có tiêu đề"
+
+# date
+date:
+    day: "{{ . }}th"
+    d_m_y: "02/01/2006"
+    m_y: "01/2006"
+    d_m_h_s: "02/01 15:04"
+    normal: "02/01/2006 15:04:05"
+
+# post
+post:
+    publishedIn: "Đăng trong {{ . }}"
+    readingTime:
+        one: "{{ .Count }} phút đọc"
+        other: "{{ .Count }} phút đọc"
+    wordCount:
+        one: "{{ .Count }} từ"
+        other: "{{ .Count }} từ"
+    prevPost: "Trước"
+    nextPost: "Sau"
+    license: "Trừ khi được nêu rõ, blog này được cấp phép theo"
+    outdatedInfo: 'Chỉnh sửa lần cuối {{ . }} ngày trước, thông tin được mô tả trong văn bản có thể đã thay đổi'
+    lastmod: 'Chỉnh sửa lần cuối: '
+    toc: "Mục lục"
+    refs: "Tham khảo"
+    archiveCounter:
+        one: '{{ . }} Bài viết'
+        other: '{{ . }} Bài viết'
+    untitled: "Không có tiêu đề"
+
+# search
+search:
+    loading: "Đang tải..."
+    loadFailure: "Khởi tạo công cụ tìm kiếm thất bại"
+    input: "Nhập từ khóa bất kỳ..."
+    results: 'Tìm thấy {{ .Count }} kết quả cho từ khóa {{ .Keyword }}'
+    notEnabled: "Tìm kiếm không được bật"
+
+# taxonomy
+taxonomy:
+    _tags: "Tags"
+    _categories: "Danh mục"
+    tag:
+        one: 'Tag {{ .Title }} có {{ .Count }} bài viết'
+        other: 'Tag {{ .Title }} có {{ .Count }} bài viết'
+    category:
+        one: 'Danh mục {{ .Title }} có {{ .Count }} bài viết'
+        other: 'Danh mục {{ .Title }} có {{ .Count }} bài viết'
+    totalTags:
+        one: '{{ . }} Tag'
+        other: '{{ . }} Tag'
+    totalCategories: 
+        one: '{{ . }} Danh mục'
+        other: '{{ . }} Danh mục'
+
+runTime:
+    text: "Đã chạy:"
+    days: "ngày"
+    hours: ":"
+    minutes: ":"
+    seconds: ""
+
+# navbar
+navbar:
+    home: "Trang chủ"
+    about: "Giới thiệu"
+    links: "Liên kết"
+    github: "GitHub"
+    search: "Tìm kiếm"
+    archives: "Lưu trữ"
+    twitter: "Tweet"
+    tags: "Tags"
+    categories: "Danh mục"
+
+# share
+share:
+    twitter: "Chia sẻ lên Twitter"
+    facebook: "Chỉa sẻ lên Facebook"
+    weibo: "Chỉa sẻ lên Weibo"
+    copy: "Sao chép liên kết"
+    qrcode: "Mã QR"
+
+# pagination
+page:
+    prev: "Trước"
+    next: "Sau"
+    page: "Trang {{ . }}"
+    pagination: "Trang {{ .PageNumber }}/{{ .TotalPages }}"
+
+copy:
+    success: "Sao chép thành công"
+    failed: "Sao chép thất bại"
+    copyCode: "Sao chép mã"
+
+# offline
+offline:
+    title: "Mất kết nối"
+    h1: "Mạng không khả dụng"
+    h3: "Có vẻ như bạn đã gặp vấn đề với kết nối mạng. Nhưng không sao, bạn vẫn có thể đọc bài viết này lần sau."
+    h4: "Còn bây giờ thì hãy tận hưởng một chút thời gian rảnh rỗi nhé."
+    return: "Click vào đây để quay lại trang chủ"
+
+# github
+github:
+    goto: "Đi đến GitHub để xem"
+    config: "Vui lòng kiểm tra cấu hình \"github\" của bạn"
+
+# twitter
+twitter:
+    title: "Twitter"
+    config: "Please check the \"twitter\" configuration"
+    link: "View"
+    like: "Like"
+    reply: "Reply"
+    forward: "Forward"
+    goto: "Go to Twitter to check it out"
+
+# i18nlist
+switchLang: "Chuyển ngôn ngữ sang {{ . }}"
+
+noscript: "Trình duyệt của bạn không hỗ trợ JavaScript, vui lòng bật JavaScript để sử dụng tốt nhất"
+
+poweredBy: "Powered by {{ .Hugo }} {{ .Heart }} {{ .Theme }}"
+
+notFound: "Không tìm thấy trang"
+
+bionicReading: "Faster Reads"
+
+darkmode:
+    switch: "Chuyển sang {{ . }}"
+    dark: "chế độ tối"
+    light: "chế độ sáng"
