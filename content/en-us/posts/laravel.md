@@ -1,5 +1,5 @@
 ---
-title: "XLaravel Artisan Cheat Sheet"
+title: "Laravel Artisan Cheat Sheet"
 date: 2025-12-04T23:10:16+07:00
 draft: false
 summary: "Bảng tổng hợp các lệnh **Artisan** thường dùng trong Laravel, giúp bạn dễ dàng tra cứu và copy nhanh khi cần..."
