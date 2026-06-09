@@ -1,0 +1,12 @@
+# Node dependencies
+node_modules/
+
+# Hugo generated output/cache
+public/
+resources/_gen/
+.hugo_build.lock
+
+# Local/editor noise
+.DS_Store
+Thumbs.db
+*.log

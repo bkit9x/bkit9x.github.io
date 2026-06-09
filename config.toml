@@ -1,5 +1,5 @@
 baseURL = "https://kha.is-a.dev"
-languageCode = "en-us"
+locale = "en-us"
 defaultContentLanguage = "en-us"
 title = "Blog của Kha"
 enableRobotsTXT = true
@@ -327,9 +327,17 @@ description = "Blog chia sẻ kiến thức về lập trình mà tôi biết đ
 
 [build]
 noJSConfigInAssets = true
+
+[security.exec]
+allow = [ "^dart-sass-embedded$", "^go$", "^node$", "^node\\.exe$", "^npx$", "^postcss$", "^postcss\\.cmd$" ]
+osEnv = [ ".*" ]
+
+[security.node.permissions]
+disable = true
+
 [languages.en-us]
 contentDir = "content/en-us"
-languageName = "English"
+label = "English"
 
   [languages.en-us.params]
   languageIcon = "images/i18n/en-us.svg"
