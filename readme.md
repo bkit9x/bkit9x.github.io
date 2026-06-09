@@ -37,3 +37,5 @@ http://localhost:1313
 ```
 
 Ghi chú: `themes/hugo-theme-luna` hiện đang rỗng vì submodule chưa init, nên Hugo build/dev sẽ lỗi nếu chưa chạy `git submodule update --init --recursive`.
+
+
